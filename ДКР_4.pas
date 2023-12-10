@@ -229,9 +229,7 @@ begin
       case punkt of
         1: punkt1;
         2: punkt2;
-
-        
-        3: ch := #27;{ выход }
+        3: CloseWindow;{ выход }
       end;
       MenuToScr;
     end;
